@@ -1,0 +1,88 @@
+body {
+  background: #1f1b24;
+}
+h1 {
+  font-size: 32px;
+}
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+p {
+  margin: 0;
+}
+
+.box {
+  margin: 15px auto;
+  background: #12121280;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.box-item {
+  background: #12121280;
+  text-align: center;
+  color: white;
+}
+
+.box-content {
+  padding: 10px 0px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.sobre {
+  max-width: 90%;
+  text-align: left;
+}
+
+.sobre h2 {
+  text-align: center;
+}
+
+.projetos img {
+  border-radius: 0;
+  max-height: 300px;
+  max-width: 400px;
+  margin-bottom: 10px;
+}
+
+.projetos a {
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px;
+  border-style: solid;
+  border-radius: 15px;
+}
+.sociais .box .box-item {
+  margin-top: 50%;
+}
+.mockup {
+  margin: auto;
+  max-height: 320px;
+}
+@media only screen and (min-width: 600px) {
+  .sociais .box {
+    height: 257px;
+  }
+}
